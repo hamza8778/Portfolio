@@ -1,221 +1,264 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hamza Ali | Education Portfolio</title>
+    <meta name="description" content="Personal portfolio of Hamza Ali, BBA student, Etsy entrepreneur, and aspiring web developer.">
+    <title>Hamza Ali | Personal Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <!-- Navigation -->
-    <header>
-        <nav class="navbar">
-            <h2 class="logo">Hamza<span>.</span></h2>
-
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main navigation">
+            <a class="logo" href="#home">Hamza<span>.</span></a>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Home Section -->
-    <section class="hero" id="home">
-        <div class="hero-content">
-            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+                <p class="hero-kicker">BBA STUDENT · CREATIVE ENTREPRENEUR</p>
+                <h1>Hello, I'm <span>Hamza Ali</span></h1>
+                <h2>Business Student, Etsy Seller &amp; Web Development Learner</h2>
+                <p class="hero-description">
+                    I am a BBA student at Iqra University with experience in Etsy e-commerce
+                    and digital designing. I enjoy combining business knowledge with creativity
+                    while developing my skills in web development.
+                </p>
+                <div class="hero-actions">
+                    <a href="#about" class="btn btn-primary">Explore My Portfolio</a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+                <div class="hero-note">
+                    <span class="status-dot"></span>
+                    Currently learning HTML &amp; CSS
+                </div>
+            </div>
 
-            <h1>Hello, I'm <span>Hamza Ali</span></h1>
+            <aside class="hero-card" aria-label="Profile">
+                <div class="photo-frame">
+                    <img src="profile.jpeg" alt="Portrait of Hamza Ali" class="profile-photo">
+                </div>
+                <p class="card-label">A LITTLE ABOUT ME</p>
+                <h2>Hamza Ali</h2>
+                <p class="hero-card-description">Creative Thinker &amp; Entrepreneur</p>
+                <div class="mini-tags">
+                    <span>BBA Student</span>
+                    <span>Canva Designer</span>
+                    <span>E-commerce</span>
+                </div>
+            </aside>
+            <div class="hero-decoration hero-decoration-one"></div>
+            <div class="hero-decoration hero-decoration-two"></div>
+        </section>
 
-            <h2>Student | Etsy Seller | Web Development Learner</h2>
+        <section class="section" id="about">
+            <div class="section-heading">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>About <span>Me</span></h2>
+                <p class="section-intro">A little about my education, interests and journey.</p>
+            </div>
+            <div class="about-box">
+                <div class="about-mark">HA</div>
+                <div>
+                    <h3>My Introduction</h3>
+                    <p>
+                        My name is Hamza Ali and I am from Karachi, Pakistan. I am currently
+                        pursuing my Bachelor of Business Administration (BBA) at Iqra University.
+                        Alongside my studies, I work on the Etsy e-commerce platform, where I sell
+                        digital designs and physical products.
+                    </p>
+                    <p>
+                        I have approximately three years of experience in e-commerce and digital
+                        product designing. I enjoy creating print-ready PNG designs for products
+                        such as T-shirts, caps and bags. I also use Canva for creative design work
+                        and am currently learning HTML and CSS to build my web development skills.
+                    </p>
+                </div>
+            </div>
+        </section>
 
+        <section class="section education-section" id="education">
+            <div class="section-heading">
+                <p class="eyebrow">MY ACADEMIC BACKGROUND</p>
+                <h2>My <span>Education</span></h2>
+                <p class="section-intro">Learning, growing and building new skills.</p>
+            </div>
+            <div class="education-list">
+                <article class="education-card">
+                    <div class="education-icon" aria-hidden="true">🎓</div>
+                    <div class="education-details">
+                        <span class="card-label">CURRENT DEGREE</span>
+                        <h3>Bachelor of Business Administration (BBA)</h3>
+                        <h4>Iqra University</h4>
+                        <p>Karachi, Pakistan</p>
+                        <span class="year">Expected Graduation: 2027</span>
+                    </div>
+                </article>
+                <article class="education-card">
+                    <div class="education-icon" aria-hidden="true">💻</div>
+                    <div class="education-details">
+                        <span class="card-label">SKILL DEVELOPMENT</span>
+                        <h3>Web Development</h3>
+                        <h4>Currently Learning</h4>
+                        <p>HTML and CSS</p>
+                        <span class="year">In Progress</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <div class="section-heading">
+                <p class="eyebrow">MY CAPABILITIES</p>
+                <h2>Skills &amp; <span>Learning</span></h2>
+                <p class="section-intro">A combination of business, creative and developing technical skills.</p>
+            </div>
+            <div class="skills-grid">
+                <article class="skill-card learning-card">
+                    <div class="skill-icon" aria-hidden="true">🌐</div>
+                    <h3>HTML</h3>
+                    <p>Learning to structure web pages and organize website content.</p>
+                    <span class="skill-status ongoing">Currently Learning</span>
+                </article>
+                <article class="skill-card learning-card">
+                    <div class="skill-icon" aria-hidden="true">🎨</div>
+                    <h3>CSS</h3>
+                    <p>Learning website styling, layouts, colors and responsive design.</p>
+                    <span class="skill-status ongoing">Currently Learning</span>
+                </article>
+                <article class="skill-card">
+                    <div class="skill-icon" aria-hidden="true">🖌️</div>
+                    <h3>Canva</h3>
+                    <p>Creating visual content and designs using Canva.</p>
+                    <span class="skill-status">Design Skill</span>
+                </article>
+                <article class="skill-card">
+                    <div class="skill-icon" aria-hidden="true">🖼️</div>
+                    <h3>Digital Product Design</h3>
+                    <p>Creating digital designs and print-ready PNG artwork.</p>
+                    <span class="skill-status">Creative Skill</span>
+                </article>
+                <article class="skill-card">
+                    <div class="skill-icon" aria-hidden="true">🛍️</div>
+                    <h3>E-commerce Management</h3>
+                    <p>Experience working with digital and physical products online.</p>
+                    <span class="skill-status">Business Skill</span>
+                </article>
+                <article class="skill-card">
+                    <div class="skill-icon" aria-hidden="true">📦</div>
+                    <h3>Etsy Shop Management</h3>
+                    <p>Practical experience managing an online Etsy business.</p>
+                    <span class="skill-status">Business Skill</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="section experience-section" id="experience">
+            <div class="section-heading">
+                <p class="eyebrow">MY PROFESSIONAL JOURNEY</p>
+                <h2>My <span>Experience</span></h2>
+                <p class="section-intro">Practical experience alongside my university studies.</p>
+            </div>
+            <article class="experience-box">
+                <div class="experience-topline">
+                    <div>
+                        <span class="card-label">E-COMMERCE</span>
+                        <h3>Etsy E-commerce Business</h3>
+                        <span class="experience-time">Approximately 3 Years of Experience</span>
+                    </div>
+                    <div class="experience-icon" aria-hidden="true">🛒</div>
+                </div>
+                <p>
+                    I have been working on the Etsy e-commerce platform for approximately
+                    three years, selling digital designs and physical products online.
+                    This experience has helped me develop practical knowledge of online
+                    business and digital product creation.
+                </p>
+                <h4>My Creative Work Includes</h4>
+                <ul class="experience-list">
+                    <li>Print-ready PNG designs</li>
+                    <li>T-shirt, cap and bag designs</li>
+                    <li>Digital product creation</li>
+                    <li>Online selling of digital and physical products</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="section projects-section" id="projects">
+            <div class="section-heading">
+                <p class="eyebrow">MY WORK</p>
+                <h2>Projects &amp; <span>Creative Work</span></h2>
+                <p class="section-intro">A look at the work I have been developing through learning and experience.</p>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-number">01</div>
+                    <div class="project-icon" aria-hidden="true">💻</div>
+                    <h3>Personal Portfolio Website</h3>
+                    <p>A personal website created with HTML and CSS to present my education, skills and experience.</p>
+                    <span class="project-type">HTML · CSS</span>
+                </article>
+                <article class="project-card">
+                    <div class="project-number">02</div>
+                    <div class="project-icon" aria-hidden="true">🎨</div>
+                    <h3>Digital Design Work</h3>
+                    <p>Digital product artwork and print-ready PNG designs for products such as T-shirts, caps and bags.</p>
+                    <span class="project-type">Canva · Digital Design</span>
+                </article>
+                <article class="project-card">
+                    <div class="project-number">03</div>
+                    <div class="project-icon" aria-hidden="true">🛍️</div>
+                    <h3>Etsy E-commerce</h3>
+                    <p>Practical experience selling digital designs and physical products through an online marketplace.</p>
+                    <span class="project-type">E-commerce</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="goal-section">
+            <p class="eyebrow">MY FUTURE VISION</p>
+            <h2>My Career <span>Goals</span></h2>
             <p>
-                I am a BBA student at Iqra University,
-                currently learning Web Development.
-                I also have 3 years of experience in
-                Etsy e-commerce and digital designing.
+                My goal is to grow my current Etsy business into a successful full-time career.
+                I want to expand my online business, improve my creative skills, strengthen my
+                business knowledge and continue learning new technologies.
             </p>
+        </section>
 
-            <a href="#about" class="btn">Explore My Portfolio</a>
-        </div>
-
-        <div class="hero-card">
-            <div class="profile-circle">HA</div>
-            <h2>Hamza Ali</h2>
-            <p>Creative Thinker & Entrepreneur</p>
-            <div class="mini-tags">
-                <span>BBA Student</span>
-                <span>Designer</span>
-                <span>Entrepreneur</span>
+        <section class="section contact-section" id="contact">
+            <div class="section-heading">
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h2>Contact <span>Me</span></h2>
+                <p class="section-intro">Feel free to get in touch.</p>
             </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="section" id="about">
-        <div class="section-heading">
-            <p>GET TO KNOW ME</p>
-            <h2>About <span>Me</span></h2>
-        </div>
-
-        <div class="about-box">
-            <h3>My Introduction</h3>
-
-            <p>
-                My name is Hamza Ali and I am from Karachi, Pakistan.
-                I am currently pursuing my BBA degree at Iqra University.
-                Alongside my studies, I am working on the Etsy e-commerce
-                platform, where I sell digital designs and physical products.
-            </p>
-
-            <p>
-                I have approximately 3 years of experience in e-commerce
-                and digital product designing. I enjoy creating print-ready
-                PNG designs for T-shirts, caps, and bags.
-                Currently, I am also learning HTML and CSS to develop
-                my web development skills.
-            </p>
-        </div>
-    </section>
-
-    <!-- Education Section -->
-    <section class="section education-section" id="education">
-        <div class="section-heading">
-            <p>MY ACADEMIC BACKGROUND</p>
-            <h2>My <span>Education</span></h2>
-        </div>
-
-        <div class="education-card">
-            <div class="education-icon">🎓</div>
-            <div>
-                <h3>Bachelor of Business Administration (BBA)</h3>
-                <h4>Iqra University</h4>
-                <p>Karachi, Pakistan</p>
-                <span class="year">Expected Graduation: 2027</span>
+            <div class="contact-card">
+                <div class="contact-icon" aria-hidden="true">✉️</div>
+                <h3>Get In Touch</h3>
+                <p><span class="contact-label">Location</span>Karachi, Pakistan</p>
+                <p>
+                    <span class="contact-label">Email</span>
+                    <a href="mailto:hamza.66588@iqra.edu.pk">hamza.66588@iqra.edu.pk</a>
+                </p>
+                <p><span class="contact-label">Education</span>BBA Student — Iqra University</p>
             </div>
-        </div>
+        </section>
+    </main>
 
-        <div class="education-card">
-            <div class="education-icon">💻</div>
-            <div>
-                <h3>Web Development Training</h3>
-                <h4>Currently Learning</h4>
-                <p>HTML & CSS</p>
-                <span class="year">In Progress</span>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section class="section" id="skills">
-        <div class="section-heading">
-            <p>WHAT I AM LEARNING</p>
-            <h2>My <span>Skills</span></h2>
-        </div>
-
-        <div class="skills-grid">
-            <div class="skill-card">
-                <div class="skill-icon">🌐</div>
-                <h3>HTML</h3>
-                <p>Learning to create website structures.</p>
-            </div>
-
-            <div class="skill-card">
-                <div class="skill-icon">🎨</div>
-                <h3>CSS</h3>
-                <p>Learning website styling and layouts.</p>
-            </div>
-
-            <div class="skill-card">
-                <div class="skill-icon">🖌️</div>
-                <h3>Digital Designing</h3>
-                <p>Creating PNG designs for print-ready products.</p>
-            </div>
-
-            <div class="skill-card">
-                <div class="skill-icon">🛒</div>
-                <h3>E-commerce</h3>
-                <p>Experience in selling digital and physical products.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section class="section experience-section" id="experience">
-        <div class="section-heading">
-            <p>MY PROFESSIONAL JOURNEY</p>
-            <h2>My <span>Experience</span></h2>
-        </div>
-
-        <div class="experience-box">
-            <h3> Etsy E-commerce Business</h3>
-            <span class="experience-time">3 Years of Experience</span>
-
-            <p>
-                I have been working on the Etsy e-commerce platform
-                for approximately 3 years. I sell digital designs
-                and physical products online.
-            </p>
-
-            <h4>My Creative Work Includes:</h4>
-
-            <ul>
-                <li>Print-ready PNG designs</li>
-                <li>T-shirt designs</li>
-                <li>Cap designs</li>
-                <li>Bag designs</li>
-                <li>Digital and physical product selling</li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Career Goals -->
-    <section class="goal-section">
-        <p>MY FUTURE VISION</p>
-        <h2>My Career <span>Goals</span></h2>
-
-        <p>
-            My goal is to grow my current Etsy business into
-            a successful full-time career. I want to expand
-            my online business, improve my creative skills,
-            and continue learning new technologies.
-        </p>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="section contact-section" id="contact">
-        <div class="section-heading">
-            <p>LET'S CONNECT</p>
-            <h2>Contact <span>Me</span></h2>
-        </div>
-
-        <div class="contact-card">
-            <h3>Get In Touch</h3>
-
-            <p>📍 Karachi, Pakistan</p>
-
-            <p>
-                📧
-                <a href="mailto:hamza.66588@iqra.edu.pk">
-                    hamza.66588@iqra.edu.pk
-                </a>
-            </p>
-
-            <p>🎓 BBA Student - Iqra University</p>
-        </div>
-    </section>
-
-    <!-- Footer -->
     <footer>
-        <h2>Hamza<span>.</span></h2>
-        <p>Education Portfolio | Designed with HTML & CSS</p>
+        <a class="footer-logo" href="#home">Hamza<span>.</span></a>
+        <p>Personal Portfolio | Designed with HTML &amp; CSS</p>
         <p>© 2026 Hamza Ali. All Rights Reserved.</p>
     </footer>
-
 </body>
 </html>
